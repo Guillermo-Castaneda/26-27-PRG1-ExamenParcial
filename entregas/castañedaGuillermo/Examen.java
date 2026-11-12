@@ -7,11 +7,13 @@ public class Examen {
         System.out.println("Dígame su edad");
         int edad = scanner.nextInt();
 
-        if (  edad < 18) {
+        if (edad < 17 || edad > 70) {
+            System.out.println("Edad invalidad, vuelva a poner su edad");
+        } else if (edad < 18) {
             System.out.println("Usted es menor de edad");
         } else {
             System.out.println("Usted es mayor de edad");
         }
-
     }
+
 }
