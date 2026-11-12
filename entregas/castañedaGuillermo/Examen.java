@@ -17,6 +17,12 @@ public class Examen {
 
         System.out.println ("dígame el número de asginaturas en las que está matriculado");
         int numeroAsignaturas = scanner.nextInt();
+        
+        if (numeroAsignaturas < 1 || numeroAsignaturas > 10) {
+            System.out.println("Número de asignaturas invalidado, vuelva a poner el número de asignaturas");
+        } else {
+            System.out.println("Usted está matriculado en " + numeroAsignaturas + " asignaturas");
+        }
     }
 
 }
