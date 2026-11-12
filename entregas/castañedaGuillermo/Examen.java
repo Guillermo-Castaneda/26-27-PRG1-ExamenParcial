@@ -51,6 +51,12 @@ public class Examen {
             System.out.println("Usted ha suspendido " + numeroAprobados + " asignatura"); 
         int numeroSuspensos = (notaAsignatura1 < 5) + (notaAsignatura2 < 5) + (notaAsignatura3 < 5) + (notaAsignatura4 < 5) + (notaAsignatura5 < 5) + (notaAsignatura6 < 5) + (notaAsignatura7 < 5) + (notaAsignatura8 < 5) + (notaAsignatura9 < 5) + (notaAsignatura10 < 5);
             System.out.println("Usted ha suspendido " + numeroSuspensos + " asignaturas");   
+
+        if (notaAsignatura1 < 0 || notaAsignatura1 > 10 || notaAsignatura2 < 0 || notaAsignatura2 > 10 || notaAsignatura3 < 0 || notaAsignatura3 > 10 || notaAsignatura4 < 0 || notaAsignatura4 > 10 || notaAsignatura5 < 0 || notaAsignatura5 > 10 || notaAsignatura6 < 0 || notaAsignatura6 > 10 || notaAsignatura7 < 0 || notaAsignatura7 > 10 || notaAsignatura8 < 0 || notaAsignatura8 > 10 || notaAsignatura9 < 0 || notaAsignatura9 > 10 || notaAsignatura10 < 0 || notaAsignatura10 > 10) {
+            System.out.println("Nota invalidada, vuelva a poner la nota");
+        } else {
+            System.out.println("Notas válidas");
+        }
     }
 
 }
