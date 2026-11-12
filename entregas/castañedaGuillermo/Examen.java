@@ -3,5 +3,7 @@ public class Examen {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Examen parcial PRG1");
         System.out.println("Dígame su edad");
+        int edad = scanner.nextInt();
+        
     }
 }
