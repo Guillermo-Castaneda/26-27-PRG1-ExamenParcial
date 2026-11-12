@@ -43,6 +43,9 @@ public class Examen {
         int notaAsignatura9 = scanner.nextInt();
         System.out.println("Nota de asignatura 10:");
         int notaAsignatura10 = scanner.nextInt();
+
+        System.out.println ("MEdia de las notas");
+        double media = (notaAsignatura1 + notaAsignatura2 + notaAsignatura3 + notaAsignatura4 + notaAsignatura5 + notaAsignatura6 + notaAsignatura7 + notaAsignatura8 + notaAsignatura9 + notaAsignatura10) / 10.0;
     }
 
 }
