@@ -47,6 +47,10 @@ public class Examen {
         System.out.println ("Media de las notas");
         double media = (notaAsignatura1 + notaAsignatura2 + notaAsignatura3 + notaAsignatura4 + notaAsignatura5 + notaAsignatura6 + notaAsignatura7 + notaAsignatura8 + notaAsignatura9 + notaAsignatura10) / 10.0;
         System.out.println("La media de las notas es: " + media);
+        int numeroAprobados = (notaAsignatura1 > 5) + (notaAsignatura2 > 5) + (notaAsignatura3 > 5) + (notaAsignatura4 > 5) + (notaAsignatura5 > 5) + (notaAsignatura6 > 5) + (notaAsignatura7 > 5) + (notaAsignatura8 > 5) + (notaAsignatura9 > 5) + (notaAsignatura10 > 5);
+            System.out.println("Usted ha suspendido " + numeroAprobados + " asignatura"); 
+        int numeroSuspensos = (notaAsignatura1 < 5) + (notaAsignatura2 < 5) + (notaAsignatura3 < 5) + (notaAsignatura4 < 5) + (notaAsignatura5 < 5) + (notaAsignatura6 < 5) + (notaAsignatura7 < 5) + (notaAsignatura8 < 5) + (notaAsignatura9 < 5) + (notaAsignatura10 < 5);
+            System.out.println("Usted ha suspendido " + numeroSuspensos + " asignaturas");   
     }
 
 }
