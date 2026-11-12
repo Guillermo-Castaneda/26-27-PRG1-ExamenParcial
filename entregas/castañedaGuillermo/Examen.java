@@ -59,6 +59,8 @@ public class Examen {
         } 
         int notaMasAlta = Math.max(Math.max(Math.max(Math.max(Math.max(Math.max(Math.max(Math.max(Math.max(notaAsignatura1, notaAsignatura2), notaAsignatura3), notaAsignatura4), notaAsignatura5), notaAsignatura6), notaAsignatura7), notaAsignatura8), notaAsignatura9), notaAsignatura10);
         System.out.println("La nota más alta es: " + notaMasAlta);
+        int notaMasBaja = Math.min(Math.min(Math.min(Math.min(Math.min(Math.min(Math.min(Math.min(Math.min(notaAsignatura1, notaAsignatura2), notaAsignatura3), notaAsignatura4), notaAsignatura5), notaAsignatura6), notaAsignatura7), notaAsignatura8), notaAsignatura9), notaAsignatura10);
+        System.out.println("La nota más baja es: " + notaMasBaja);
     }
 
 }
