@@ -61,6 +61,11 @@ public class Examen {
         System.out.println("La nota más alta es: " + notaMasAlta);
         int notaMasBaja = Math.min(Math.min(Math.min(Math.min(Math.min(Math.min(Math.min(Math.min(Math.min(notaAsignatura1, notaAsignatura2), notaAsignatura3), notaAsignatura4), notaAsignatura5), notaAsignatura6), notaAsignatura7), notaAsignatura8), notaAsignatura9), notaAsignatura10);
         System.out.println("La nota más baja es: " + notaMasBaja);
+        if (media >= 5 && (notaAsignatura1 >= 4 && notaAsignatura2 >= 4 && notaAsignatura3 >= 4 && notaAsignatura4 >= 4 && notaAsignatura5 >= 4 && notaAsignatura6 >= 4 && notaAsignatura7 >= 4 && notaAsignatura8 >= 4 && notaAsignatura9 >= 4 && notaAsignatura10 >= 4)) {
+            System.out.println("Promociona");
+        } else {
+            System.out.println("Recupera");
+        }
     }
 
 }
