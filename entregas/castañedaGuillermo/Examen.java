@@ -8,12 +8,15 @@ public class Examen {
         int edad = scanner.nextInt();
 
         if (edad < 17 || edad > 70) {
-            System.out.println("Edad invalidad, vuelva a poner su edad");
+            System.out.println("Edad invalidada, vuelva a poner su edad");
         } else if (edad < 18) {
             System.out.println("Usted es menor de edad");
         } else {
             System.out.println("Usted es mayor de edad");
         }
+
+        System.out.println ("dígame el número de asginaturas en las que está matriculado");
+        int numeroAsignaturas = scanner.nextInt();
     }
 
 }
